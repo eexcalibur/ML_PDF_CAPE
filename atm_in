@@ -13,8 +13,8 @@
 /
 &cam_history_nl
  mfilt		= 10000
- nhtfrq		= 1
- fincl2 ='OMEGA','PS','TDIFF','QDIFF','PRECZ','PRECSH','PRECL','PRECC','PRECT','FLUT','FLUTC','FSNTOA','CAPE','RELHUM','TS','SHFLX','LHFLX','T','Q'
+ nhtfrq		= 0,-3
+ fincl2 ='SWCF','LWCF','OMEGA','PS','TDIFF','QDIFF','PRECZ','PRECSH','PRECL','PRECC','PRECT','FLUT','FLUTC','FSNTOA','CAPE','RELHUM','TS','SHFLX','LHFLX','T','Q'
 /
 &cam_inparm
  bnd_topo		= '/global/cfs/cdirs/e3sm/inputdata/atm/cam/topo/USGS-gtopo30_ne4np4_16x.c20160612.nc'
